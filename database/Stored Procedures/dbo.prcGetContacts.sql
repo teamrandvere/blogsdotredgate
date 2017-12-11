@@ -4,8 +4,8 @@ SET ANSI_NULLS ON
 GO
 CREATE PROCEDURE [dbo].[prcGetContacts]
 AS
-    SELECT  *
-    FROM    Contacts
+    SELECT Address1
+    FROM   Contacts;
 
-	-- v5
+-- v5
 GO
