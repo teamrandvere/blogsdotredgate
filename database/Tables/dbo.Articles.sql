@@ -9,7 +9,8 @@ CREATE TABLE [dbo].[Articles]
 [ModifiedDate] [datetime] NULL,
 [URL] [char] (200) COLLATE Latin1_General_CI_AS NULL,
 [Comments] [int] NULL,
-[Pages] [int] NULL
+[Pages] [int] NULL,
+[Pages1] [int] NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Articles] ADD CONSTRAINT [PK_Article] PRIMARY KEY CLUSTERED  ([ArticlesID]) ON [PRIMARY]
